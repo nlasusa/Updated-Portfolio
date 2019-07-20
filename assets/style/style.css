@@ -159,3 +159,9 @@ body {
     cursor: pointer;
 }
 
+#refresh-button1, #refresh-button2 {
+    background-color: white; 
+    opacity: 0.9; 
+    color: black; 
+}
+
