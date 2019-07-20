@@ -1,0 +1,125 @@
+body {
+    background-image: url(../images/office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title {
+    font-family:  'Unica One', cursive;
+    font-size: 85px;
+    text-align: center;
+}
+
+#title2 {
+    text-align: left;
+}
+
+#work-school {
+    color: black;
+    background: white;
+    opacity: 0.9;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Unica One', cursive; */
+    margin-top: 50px;
+}
+
+.row1 {
+    text-align: center;
+}
+
+.fa-pagelines {
+    font-size: 20px;
+    color: hotpink;
+}
+
+.fa-laptop {
+    margin-top: 30px;
+    margin: 40px;
+    font-size: 40px; 
+    color: #6F666F;
+}
+
+.fa-address-card {
+    margin-top: 30px;
+    margin: 40px;
+    font-size: 40px; 
+    color: #6F666F;
+}
+
+.fa-linkedin {
+    margin-bottom: 35px;
+    margin: 46px;
+    font-size: 40px; 
+    color: #6F666F;
+}
+
+.fa-github {
+    margin-bottom: 35px;
+    margin: 46px;
+    font-size: 40px; 
+    color: #6F666F;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    width: 130px;
+    height: 130px;
+    background: #E5F480;
+    opacity: 0.75; 
+    border-radius: 50%;
+    margin: 0 auto; 
+}
+
+#circle1:hover, .fa-laptop:hover {
+    background-color: #6F666F;
+    color: white; 
+}
+
+#circle2:hover, .fa-address-card:hover {
+    background-color: #6F666F;
+    color: white; 
+}
+
+#circle3:hover, .fa-linkedin:hover {
+    background-color: #6F666F;
+    color: white; 
+}
+  
+#circle4:hover, .fa-github:hover {
+    background-color: #6F666F;
+    color: white; 
+}
+
+.card-footer {
+    color:  black;;
+    font-size: 11px;
+    text-align: center;
+    background-color: white; 
+    opacity: 0.6; 
+}
+
+#contact {
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px; 
+}
+
+.row3 {
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: black;
+    background-color: white; 
+}
+
+#link1:hover, #link2:hover, #link3:hover, #link4:hover{
+    border: 8px solid #E6E6E6;
+}
