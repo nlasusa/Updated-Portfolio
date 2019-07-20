@@ -4,7 +4,7 @@ $(".fa-github").on('click', function(){
     window.location = "https://github.com/nlasusa";    
 });
 
-$(".fa-github").on('click', function(){
+$("#circle4").on('click', function(){
     window.location = "https://github.com/nlasusa";    
 });
 
@@ -12,11 +12,23 @@ $(".fa-linkedin").on('click', function(){
     window.location = "https://www.linkedin.com/in/nicole-lasusa-17a118a0/";    
 });
 
+$("#circle3").on('click', function(){
+    window.location = "https://www.linkedin.com/in/nicole-lasusa-17a118a0/";    
+});
+
 $(".fa-address-card").on('click', function(){
     window.location.href = "contact.html";
 });
 
+$("#circle2").on('click', function(){
+    window.location.href = "contact.html";
+});
+
 $(".fa-laptop").on('click', function(){
+    window.location.href = "Portfolio.html";
+});
+
+$("#circle1").on('click', function(){
     window.location.href = "Portfolio.html";
 });
 
@@ -34,4 +46,16 @@ $("#link3").on('click', function(){
 
 $("#link4").on('click', function(){
     window.location.href = "https://nlasusa.github.io/project1/";
+});
+
+$("#refresh-button1").on('click', function (){
+    window.location.href = "index.html";
+});
+
+$("#refresh-button2").on('click', function (){
+    window.location.href = "index.html";
+});
+
+$("#bio").on('click', function (){
+    window.location.href = "aboutme.html";
 });

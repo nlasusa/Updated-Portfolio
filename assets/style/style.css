@@ -28,7 +28,7 @@ body {
 
 #contactinfo {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -46,6 +46,7 @@ body {
     margin: 40px;
     font-size: 40px; 
     color: #6F666F;
+    cursor: pointer;
 }
 
 .fa-address-card {
@@ -53,6 +54,7 @@ body {
     margin: 40px;
     font-size: 40px; 
     color: #6F666F;
+    cursor: pointer;
 }
 
 .fa-linkedin {
@@ -60,6 +62,7 @@ body {
     margin: 46px;
     font-size: 40px; 
     color: #6F666F;
+    cursor: pointer;
 }
 
 .fa-github {
@@ -67,6 +70,7 @@ body {
     margin: 46px;
     font-size: 40px; 
     color: #6F666F;
+    cursor: pointer;
 }
 
 #circle1, #circle2, #circle3, #circle4 {
@@ -75,27 +79,32 @@ body {
     background: #E5F480;
     opacity: 0.75; 
     border-radius: 50%;
-    margin: 0 auto; 
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 #circle1:hover, .fa-laptop:hover {
     background-color: #6F666F;
     color: white; 
+    cursor: pointer;
 }
 
 #circle2:hover, .fa-address-card:hover {
     background-color: #6F666F;
     color: white; 
+    cursor: pointer;
 }
 
 #circle3:hover, .fa-linkedin:hover {
     background-color: #6F666F;
     color: white; 
+    cursor: pointer;
 }
   
 #circle4:hover, .fa-github:hover {
     background-color: #6F666F;
     color: white; 
+    cursor: pointer;
 }
 
 .card-footer {
@@ -118,14 +127,35 @@ body {
     font-size: 40px;
 }
 
-h1 {
-    text-align: center; 
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    color: black;
-    background-color: white; 
+#link1, #link2, #link3, #link4{
+    opacity: 0.95; 
 }
 
 #link1:hover, #link2:hover, #link3:hover, #link4:hover{
-    border: 8px solid #E6E6E6;
+    border: 4px solid black;
 }
+
+#aboutmeinfo1 {
+    color: black;
+    background-color: white;
+    opacity: 0.9;
+    font-size: 16px;
+    text-align: center;
+    padding: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+#imgbox {
+    text-align: center; 
+}
+
+#bio {
+    color: #9439E3;
+    cursor: pointer;
+}
+
+#resume, .fa-file {
+    cursor: pointer;
+}
+
