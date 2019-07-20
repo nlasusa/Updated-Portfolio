@@ -26,6 +26,12 @@ body {
     margin-top: 50px;
 }
 
+#contactinfo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
 .row1 {
     text-align: center;
 }
