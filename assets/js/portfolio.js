@@ -48,6 +48,10 @@ $("#link4").on('click', function(){
     window.location.href = "https://nlasusa.github.io/project1/";
 });
 
+$("#link5").on('click', function(){
+    window.location.href = "https://nlasusa.github.io/bamazon/";
+});
+
 $("#refresh-button1").on('click', function (){
     window.location.href = "index.html";
 });
